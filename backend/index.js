@@ -8,12 +8,9 @@ app.use(express.json());
 
 //implement the CORS config
 const cors = require('cors');
-const corsOptions = {
-    origin: 'https://ranxin2023.github.io',
-    credentials: true,            //access-control-allow-credentials:true
-    optionSuccessStatus: 200
-}
-app.use(cors(corsOptions));
+app.use(cors({
+    origin: process.env.ALLOWED_ORIGIN // Set this in your environment variables
+}));
 //products array
 let products = [
     { id: 1, name: 'Product 1', description: 'description 1', price: 100, imageUrl: '' },
