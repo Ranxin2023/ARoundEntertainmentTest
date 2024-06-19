@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Ranxin2023/ARoundEntertainmentTest/static/css/main.ff02f4b5.css",
-    "main.js": "/Ranxin2023/ARoundEntertainmentTest/static/js/main.c33e5077.js",
-    "static/js/453.d855a71b.chunk.js": "/Ranxin2023/ARoundEntertainmentTest/static/js/453.d855a71b.chunk.js",
-    "index.html": "/Ranxin2023/ARoundEntertainmentTest/index.html",
-    "main.ff02f4b5.css.map": "/Ranxin2023/ARoundEntertainmentTest/static/css/main.ff02f4b5.css.map",
-    "main.c33e5077.js.map": "/Ranxin2023/ARoundEntertainmentTest/static/js/main.c33e5077.js.map",
-    "453.d855a71b.chunk.js.map": "/Ranxin2023/ARoundEntertainmentTest/static/js/453.d855a71b.chunk.js.map"
+    "main.css": "/ARoundEntertainmentTest/static/css/main.ff02f4b5.css",
+    "main.js": "/ARoundEntertainmentTest/static/js/main.c7744606.js",
+    "static/js/453.d855a71b.chunk.js": "/ARoundEntertainmentTest/static/js/453.d855a71b.chunk.js",
+    "index.html": "/ARoundEntertainmentTest/index.html",
+    "main.ff02f4b5.css.map": "/ARoundEntertainmentTest/static/css/main.ff02f4b5.css.map",
+    "main.c7744606.js.map": "/ARoundEntertainmentTest/static/js/main.c7744606.js.map",
+    "453.d855a71b.chunk.js.map": "/ARoundEntertainmentTest/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff02f4b5.css",
-    "static/js/main.c33e5077.js"
+    "static/js/main.c7744606.js"
   ]
 }
