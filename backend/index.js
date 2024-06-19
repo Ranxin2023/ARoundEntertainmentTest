@@ -2,17 +2,18 @@ const express = require('express');
 require('dotenv').config();
 
 const app = express();
-const path = require('path');
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 
 //implement the CORS config
 const cors = require('cors');
-app.use(cors({
-    origin: 'https://ranxin2023.github.io/ARoundEntertainmentTest/' // Allow only the frontend domain
-}));
-
+const corsOptions = {
+    origin: 'https://ranxin2023.github.io',
+    credentials: true,            //access-control-allow-credentials:true
+    optionSuccessStatus: 200
+}
+app.use(cors(corsOptions));
 //products array
 let products = [
     { id: 1, name: 'Product 1', description: 'description 1', price: 100, imageUrl: '' },
