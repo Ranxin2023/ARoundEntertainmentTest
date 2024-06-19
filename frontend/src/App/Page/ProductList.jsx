@@ -8,7 +8,7 @@ const ProductList = () => {
   const [products, setProducts] = useState([]);
   const fetchProducts = async () => {
     try {
-      const response = await axios.get('https://ranxin2023.github.io/ARoundEntertainmentTest/api/products');
+      const response = await axios.get('http://localhost:5000/api/products');
       setProducts(response.data);
     } catch (error) {
       console.error('Error fetching products:', error);
@@ -18,7 +18,7 @@ const ProductList = () => {
   //implement the delete function
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`https://ranxin2023.github.io/ARoundEntertainmentTest/api/products/${id}`);
+      await axios.delete(`http://localhost:5000/api/products/${id}`);
       setProducts(products.filter(product => product.id !== id));
     } catch (error) {
       console.error('Error deleting product:', error);
